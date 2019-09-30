@@ -1,0 +1,27 @@
+
+body {
+  margin: 3% 3% 3% 3%;
+}
+h1 {
+  background-color: bisque;
+  text-align: center;
+  font-family: Mansalva;
+  color: black;
+}
+
+footer {
+  background-color: bisque;
+  text-align: center;
+  font-size: 80%;
+}
+
+
+img {
+  display: block;
+ 
+  margin: 1%;
+}
+
+p {
+  font-family: Noto+Serif;
+}
