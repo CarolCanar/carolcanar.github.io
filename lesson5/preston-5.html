@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <title> weather site  </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+
+        <link href="//fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/small.css">
+        <link rel="stylesheet" type="text/css" href="css/middle.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+    </head>
+
+    <body>
+        <div class="banner hide" id="saturday">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <img class="logoimg" src="images/logo.png" alt="">
+                </div>
+                
+                <div class="title">
+                    <h1>weather site</h1>
+                    <p>The weather site catch phrase/motto</p>
+                </div>
+            </div>  
+            
+            <!-- NAVIGATION HERE -->
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776</button>
+                <ul id = "pNav" class = "hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="preston-5.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Galery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <h1>Preston</h1>
+            <div class="herodiv">
+                <img src="images/city2.jpeg">
+                <section class="stats">
+                    <h2>weather summary</h2>
+                    <p>Currently: <span id="currently">Sunny</span</p>
+                    <p>hight: <span id="hight">76F</span></p>
+                    <p>wind chill: <span id="windchill">F</span></p>
+                    <p>Humidity: <span id="humidity">69%</span></p>
+                    <p>wind speed: <span id="windspeed">5MPH</span></p>
+                </section>
+            </div>
+        </main>
+
+        <div class = "center div-header">
+            <h2>High Temperature Forecast</h2>
+            <table id = "table" class = "table">
+                <tr>
+                    <th>Day</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td class="forcast">Forecast</td>
+                    <td>89F</td>
+                    <td>87F</td>
+                    <td>78F</td>
+                    <td>75F</td>
+                    <td>72F</td>
+                </tr>
+            </table>      
+        </div>
+
+        <article class="summary">
+     
+            <img src="images/paople.jpeg" alt="people">
+            <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. 
+                Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas 
+                ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius
+                Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+        </article>
+  
+
+        <footer>
+            <p>
+            &copy; The weather site | Atribution | Carol Canar 
+            </p>
+
+            <p id="date">Saturday, October 12th 2019</p>
+        </footer>
+
+        <script src = "js/hamburger.js"></script>
+        <script src = "js/currentdate.js"></script>
+        <script src = "js/date.js"></script>
+        
+    </body>
+
+</html> 
+
