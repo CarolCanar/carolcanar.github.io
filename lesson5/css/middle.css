@@ -48,4 +48,8 @@
         color: white;
     }
 
+    iframe {
+
+        display: block;
+    }
 }

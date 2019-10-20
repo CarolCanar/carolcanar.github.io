@@ -22,6 +22,11 @@ margin-left: 5%;
 
 }
 
+article img{
+
+  max-width: 100%;
+}
+
 
 nav button {
   margin: .2rem 2%;
@@ -116,4 +121,10 @@ background-color: yellow;
 .hide {
 
   display: none;
+}
+
+iframe{
+
+  display: none;
+
 }
