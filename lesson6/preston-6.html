@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <title> weather site  </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link href="//fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/small.css">
+        <link rel="stylesheet" type="text/css" href="css/middle.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+    </head>
+
+    <body>
+        <div class="banner hide" id="saturday">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+        <header>
+            <div class="header">
+                <div class="logo">
+                    <img class="logoimg" src="images/logo.png" alt="">
+                </div>
+                
+                <div class="title">
+                    <h1>weather site</h1>
+                    <p>The weather site catch phrase/motto</p>
+                </div>
+            </div>  
+            
+            <!-- NAVIGATION HERE -->
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776</button>
+                <ul id = "pNav" class = "hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="preston-5.html">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Galery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <h1>Preston</h1>
+            <div class="herodiv">
+
+                    <picture>
+                            <source media="(min-width: 1000px)" srcset="images/2456x1192.jpg">
+                            <source media="(min-width: 500px)" srcset="images/1228x596.jpg">
+                            <source media="(min-width: 300px)" srcset="images/614x298.jpg">
+                            <img src="images/paisaje.jpeg" alt="Preston" style="width:auto;">
+                          </picture>
+  
+              
+                    
+                <section class="stats">
+                    <h2>weather summary</h2>
+                    <p>Currently: <span id="currently">Sunny</span</p>
+                    <p>hight: <span id="hight">76</span></p>
+                    <p>wind chill: <span id="windchill">F</span></p>
+                    <p>Humidity: <span id="humidity">69%</span></p>
+                    <p>wind speed: <span id="windspeed">5</span></p>
+                </section>
+            </div>
+        </main>
+
+        <div class = "center div-header">
+            <h2>High Temperature Forecast</h2>
+            <table id = "table" class = "table">
+                <tr>
+                    <th>Day</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                    <th>Sun</th>
+                </tr>
+                <tr>
+                    <td class="forcast">Forecast</td>
+                    <td>89F</td>
+                    <td>87F</td>
+                    <td>78F</td>
+                    <td>75F</td>
+                    <td>72F</td>
+                </tr>
+            </table>      
+        </div>
+
+        <article class="summary">
+     
+            <img src="images/paople.jpeg" alt="people">
+            <p>Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. 
+                Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas 
+                ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius
+                Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+        </article>
+  
+
+        <footer>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.39329266129!2d-111.91568789781361!3d42.10025110075405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20Idaho%2083263%2C%20EE.%20UU.!5e0!3m2!1ses-419!2smx!4v1571550967190!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <p>
+            &copy; The weather site | Atribution | Carol Canar 
+            </p>
+
+            <p id="date">Saturday, October 12th 2019</p>
+        </footer>
+
+        <script src = "js/hamburger.js"></script>
+        <script src = "js/currentdate.js"></script>
+        <script src = "js/date.js"></script>
+        <script src = "js/windchil.js"></script>
+    </body>
+
+</html> 
+
