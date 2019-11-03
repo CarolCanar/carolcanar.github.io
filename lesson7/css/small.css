@@ -144,7 +144,8 @@ iframe{
 
 .pictures > div{
 
-margin: 1%;
+margin: 2%;
+background-color: rosybrown;
 }
 
 .pictures > div:hover{
