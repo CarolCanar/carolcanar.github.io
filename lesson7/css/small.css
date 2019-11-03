@@ -128,3 +128,27 @@ iframe{
   display: none;
 
 }
+
+.pictures img{
+
+  width: 100%;
+  max-width: 100%;
+
+}
+
+.pictures {
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.pictures > div{
+
+margin: 1%;
+}
+
+.pictures > div:hover{
+
+box-shadow: 0 0 30px gray;
+
+}
