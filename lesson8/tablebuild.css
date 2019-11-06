@@ -33,10 +33,10 @@
         color: #ffffff;
     }
 
-    .fila {
+    tbody{
         background-color: #e7f0ed;
     }
-    .fila tr:nth-child(even){
+    tbody tr:nth-child(even){
         background-color:  #e7ffed;
 
     }
