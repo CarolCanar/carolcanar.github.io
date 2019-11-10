@@ -1,0 +1,8 @@
+* {
+    border:solid;
+    margin:1%;
+}
+
+.header{
+    display: flex;
+}
