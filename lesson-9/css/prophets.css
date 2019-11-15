@@ -1,0 +1,51 @@
+section {
+    background-color: plum;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  h1{
+    font-size: 200%;
+    text-align: center;
+      
+  }
+  
+  h2 {
+    font-size: 200%;
+    text-align: center;
+    color:#ffff;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;  
+  }
+
+  footer {
+      margin-top: 5px;
+      font-size: 200%;
+      color: black;
+      text-align: center;
+      border-top: solid 1px black;
+
+  }
+  
+  @media only screen and (min-width:32.5em) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    h1{
+        font-size: 400%;
+        text-align: center;
+          
+      }
+
+  }
