@@ -7,6 +7,7 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const towns = jsonObject['towns'];
+    let j = 1;
     for (let i = 0; i < towns.length; i++ ) {
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
@@ -15,6 +16,7 @@ fetch(requestURL)
         let p3 = document.createElement('p');
         let p4 = document.createElement('p');
         let image = document.createElement('img');
+      
         
         h2.textContent = towns[i].name;
         p1.textContent = towns[i].motto;
@@ -22,7 +24,8 @@ fetch(requestURL)
         p3.textContent = 'population' + towns[i].currentPopulation; 
         p4.textContent = 'annual rain fall ' + towns[i].averageRainfall; 
         
-        image.setAttribute('src', 'images/' + towns[i].photo);
+        image.setAttribute('src', 'images/t' + j +'.jpg' );
+        j++;
 
         card.appendChild(h2);
         card.appendChild(p1);

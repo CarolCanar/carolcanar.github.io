@@ -128,3 +128,16 @@ iframe{
   display: none;
 
 }
+
+.cards section {
+
+  border: solid grey 2px;
+  margin: 10px 5px;
+  background-color: bisque;
+
+}
+
+.cards img {
+  width: 100%;
+  max-width: 100%;
+}
