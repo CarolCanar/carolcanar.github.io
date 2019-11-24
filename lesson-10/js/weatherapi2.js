@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-const apiURL1 = 'http://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=9b187cb192bbfd069044eebd166f188e';
+const apiURL1 = '//api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=9b187cb192bbfd069044eebd166f188e';
 
 var day = today.getDay()+1;
 var weekday = new Array(7);
