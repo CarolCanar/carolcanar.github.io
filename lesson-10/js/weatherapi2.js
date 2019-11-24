@@ -18,7 +18,7 @@ for (day; day <= j; day++) {
   var dayname = weekday[day];
   
   if (a<6) {
-      //document.getElementById('tomorrow'+a).innerHTML = dayname;
+      document.getElementById('tomorrow'+a).innerHTML = dayname;
   }
   a++;
   if (day == j) {
