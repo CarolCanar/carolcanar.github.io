@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang= "en-us">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Temple Inn & Suites | Full Time</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1">
+
+        <link href="https://fonts.googleapis.com/css?family=Girassol&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/small.css">
+        <link rel="stylesheet" type="text/css" href="css/middle.css">
+        <link rel="stylesheet" type="text/css" href="css/large.css">
+
+    </head>
+
+    <body>
+        
+        <header>
+            <div class="header">
+                <div class="logo">
+                        <a href="index.html"><img class="logoimg" src="images/LDSTemple.png" alt="temple"></a>
+                </div>
+                
+                <div class="title">
+                    <h1>Services</h1>
+                    <p>Templeinn&suites.com</p>
+                </div>  
+                <div></div>
+            
+            </div>  
+            
+            <!-- NAVIGATION HERE -->
+            <nav class="clearfix">
+                <button onclick="toggleMenu()">&#9776;</button>
+                <ul id = "pNav" class = "hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temples.html">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+            <main>
+                <div class="summary">
+                    <div>
+                        <img src="images/mison1.jpg" alt="mision2">
+                    </div>
+                    <div>
+                        <h1>Full time missionary </h1>
+                        <p>The purpose of the Church-Service Missionary Program is to provide opportunities 
+                        for members to give their time to the Lord through work-related service missions. Church-service missionaries serve at least 8 hours per week. 
+                        They normally serve for 6 to 24 months.</p>
+                           
+                        <h2>Our service includes</h2>
+                        <ul>
+                            <li>Accomodation</li>
+                            <li>Food services</li>
+                            <li>Reception setup</li>
+                            <li>Invitation </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+
+                <div class="summary left">
+                    <div>
+                        <img src="images/mision2.jpg" alt="mision1">
+                    </div>
+                    <div>
+                        <h1>Contact us </h1>
+                        <form method="GET" action="thanks.html">       
+                            <fieldset>
+                                <legend>Personal information</legend>
+                                <label >Full name*:<input type="text" name="fname" pattern="[A-Za-z]{5,}" title="Full name including lastname" required></label>
+                                <label >Phone number*:<input type="tel" name="phone" required></label>
+                                <label >Email:<input type="email" name="email" placeholder="someone@domain.com"></label>  
+                                <label >Country of residence:<input type="text" name="country" placeholder="country"></label>                 
+                            </fieldset>
+                        
+                             <fieldset>
+                                <legend></legend>
+                                <label >Please enter your inquiry</label><br>
+                                <label ><textarea name="ainfo" rows="10" cols="25"></textarea></label>  
+                            </fieldset>
+                            <input type = "submit" value="Send information" class = "submitBtn"> 
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </main>
+       
+
+        <footer>
+            <div class="info1">
+                <div>
+                    <p><strong>contact us</strong></p>
+                    <p>Salt Lake City, Utah, EE. UU.</p>
+                    <p>templeinn&suites@gmail.com</p>
+                </div>
+            </div>
+            <p>
+            &copy; Temple In & Suites site | Atribution | Carol Canar 
+            </p>
+
+            <p id="date">Tuesday, December 17th 2019</p>
+        
+        </footer>
+
+        
+    </body>
+
+</html> 
+
